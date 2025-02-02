@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        HTML Cheat Sheet
+    </title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Code:wght@300..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <header>
+        <h1 id="title">
+            HTML And CSS Cheat Sheet
+        </h1>
+
+   </header> 
+   <main>
+        <div id="basicHTML">
+            <h2>
+                Basic HTML Tags
+            </h2>
+            <section class="description">
+                <h3>
+                    What is HTML?
+                </h3>
+                <p>
+                    HTML is the building blocks of every website. 
+                    HTML tags tell the computer how to structure the content, 
+                    and what you put between those opening and closing tags 
+                    is the content that will be formatted.
+                    Everything from headers to buttons to forms are made at the fundamental level out of HTML Tags 
+                </p>
+            </section>
+            <table>
+                <thead>
+                    <tr id="htmlHeader">
+                        <th>
+                            Tag
+                        </th>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                           <span class="tag">&lt;!DOCTYPE html&gt;</span> 
+                        </td>
+                        <td>
+                            DOCTYPE html
+                        </td>
+                        <td>
+                            Tells the browser what language the file is in.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;html&gt;</span>
+                        </td>
+                        <td>
+                            HTML Tag
+                        </td>
+                        <td>
+                            Contains all elements other than DOCTYPE and begins a HTML document.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;head&gt;</span>
+                        </td>
+                        <td>
+                            Head Tag
+                        </td>
+                        <td>
+                            Contains elements for the webpage title and other important information.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;meta&gt;</span>
+                        </td>
+                        <td>
+                            Meta Tag
+                        </td>
+                        <td>
+                            Contains web page data information and is found within the Head Element.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;body&gt;</span>
+                        </td>
+                        <td>
+                            Body Tag
+                        </td>
+                        <td>
+                            Contains essentially all elements for displaying web page content.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;header&gt;</span>
+                        </td>
+                        <td>
+                            Header Element
+                        </td>
+                        <td>
+                            Heading Elements contain the logo, brand name or similar information. 
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;nav&gt;</span>
+                        </td>
+                        <td>
+                            Navigation Element
+                        </td>
+                        <td>
+                            Navigation elements provide links to various web pages across the website.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;main&gt;</span>
+                        </td>
+                        <td>
+                            Main Element
+                        </td>
+                        <td>
+                            The intended webpage content is held within the main element.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;footer&gt;</span>
+                        </td>
+                        <td>
+                            Footer Element
+                        </td>
+                        <td>
+                            Footer elements contain the information appropiate at the bottom of the page, such as contact and copyright information. 
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;p&gt;</span>
+                        </td>
+                        <td>
+                            Paragraph Element
+                        </td>
+                        <td>
+                            Paragraph elements group sentences or paragrpahs together. They add space above and below each element. 
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;br&gt;</span>
+                        </td>
+                        <td>
+                            Line Break Element
+                        </td>
+                        <td>
+                            These seperate sentences and elements onto new lines, including the space between them. They <strong>do not</strong> require a closing tag. 
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="tag">&lt;blockquote&gt;</span>
+                        </td>
+                        <td>
+                            Blockquote Element
+                        </td>
+                        <td>
+                            Blockquotes isolate the text with spaces and indents to distinguish a quote from other text. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <h2>Basic CSS Attributes</h2>
+            <section class="description">
+                <h3>
+                    What is CSS?
+                </h3>
+                <p>
+                    CSS adds upon HTML by allowing customisability and formatting to a much higher degree than HTML. When a button has a red outline, or a table has been formatted with an outline, that is CSS doing it&apos;s magic!
+                </p>
+            </section>
+            <table id="basicCSS">
+                <thead>
+                    <tr id="cssHeader">
+                        <th>
+                            Property
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                        <th>
+                            Example
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="tag">font-family</span>
+                        </td>
+                        <td>
+                            Allows you to set a group of fonts to be used when loaded by the browser. It is best practice to include a web-safe backup font to ensure there isnt an error when loading your website. 
+                        </td>
+                        <td >
+                            <span class="code">font-family: Aerial, "Comic Sans", Calibri;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="tag">font-size</span>
+                        </td>
+                        <td>
+                            Allows you to choose the size of the font used by the browser. 
+                        </td>
+                        <td>
+                            <span class="code">font-size: 14pt; font-size: 1.5em;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="tag">font-weight</span>
+                        </td>
+                        <td>
+                            Allows you to choose the thickness of your font.
+                        </td>
+                        <td>
+                            <span class="code">font-weight: bold; font-weight: 700;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="tag">font-style</span>
+                        </td>
+                        <td>
+                            Allows you to choose wether text is italicised
+                        </td>
+                        <td>
+                            <span class="code">font-style: italic;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="tag">text-align</span>
+                        </td>
+                        <td>
+                            Allows you to choose where text will align to on the page.
+                        </td>
+                        <td>
+                            <span class="code">text-align: center;</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="tag">color</span>
+                        </td>
+                        <td>
+                            This adjusts the colour of the text.
+                        </td>
+                        <td>
+                            <span class="code">color: red; <br>color: #FFFFFF;</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+   </main>
+   <footer>
+        <p>
+            This web page was designed and produced by <a href="https://www.linkedin.com/in/jakemuirhead021" target="_blank">Jake Muirhead</a>
+        </p>
+
+        <h3>
+            Contact Me:
+        </h3>
+        <p>
+            Email:<a href="https://mail.google.com/mail/?view=cm&fs=1&to=jakemuirhead911@gmail.com" target="_blank">jakemuirhead911@gmail.com</a>
+        </p>
+        <p>
+            Phone:<a href="tel:+447908878381">07908 878381</a>
+        </p>
+   </footer>
+</body>
+</html>
